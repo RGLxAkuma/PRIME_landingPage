@@ -1,0 +1,107 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Hydration</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="/logo.png" alt="" class="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://drinkprime.com/pages/about-prime" target="https://drinkprime.com/pages/about-prime">About Prime</a></li>
+          <li><a href="https://drinkprime.com/pages/where-to-buy" target="https://drinkprime.com/pages/where-to-buy">Where To Buy</a></li>
+          <li><a href="https://drinkprime.com/pages/contact-us" target="https://drinkprime.com/pages/contact-us">Contact Us</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            <span class="one">P</span><span class="two">R</span
+            ><span class="three">I</span><span class="four">M</span
+            ><span class="five">E</span><br /><span class="bold"
+              >HYDRATION</span
+            >
+          </h2>
+          <p>
+            Prime Hydration was developed to fill the void where great taste
+            meets function. With bold, thirst-quenching flavors to help you
+            refresh, replenish, and refuel, Prime is the perfect boost for any
+            endeavor. We’re confident you’ll love it as much as we do. ​
+          </p>
+          <a href="https://drinkprime.com/" target="https://drinkprime.com/">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="/img1.png" alt="" class="starbucks" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="/thumb1.png"
+            alt=""
+            onclick="imgSlider('img1.png'); changeCircleColor('#049DD9') ; changeTextColor('#049DD9')"
+          />
+        </li>
+        <li>
+          <img
+            src="/thumb2.png"
+            alt=""
+            onclick="imgSlider('img2.png'); changeCircleColor('#8C1F1F'); changeTextColor('#8C1F1F')"
+          />
+        </li>
+        <li>
+          <img
+            src="/thumb3.png"
+            alt=""
+            onclick="imgSlider('img3.png'); changeCircleColor('#80BF21'); changeTextColor('#80BF21')"
+          />
+        </li>
+        <li>
+          <img
+            src="/thumb4.png"
+            alt=""
+            onclick="imgSlider('img4.png'); changeCircleColor('#7D79F2'); changeTextColor('#7D79F2')"
+          />
+        </li>
+        <li>
+          <img
+            src="/thumb5.png"
+            alt=""
+            onclick="imgSlider('img5.png'); changeCircleColor('#8C1A0C'); changeTextColor('#8C1A0C')"
+          />
+        </li>
+      </ul>
+      <ul class="sci">
+        <li>
+          <a href="https://www.facebook.com/Prime-Hydration-101364282422983" target="https://www.facebook.com/Prime-Hydration-101364282422983"><img src="/facebook.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/accounts/login/?next=/drinkprime/" target="https://www.instagram.com/accounts/login/?next=/drinkprime/"><img src="/twitter.png" alt="" /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/primehydrate" target="https://twitter.com/primehydrate"><img src="/instagram.png" alt="" /></a>
+        </li>
+      </ul>
+    </section>
+    <script type="text/javascript">
+      function imgSlider(anything) {
+        document.querySelector(".starbucks").src = anything;
+      }
+
+      function changeCircleColor(color) {
+        const circle = document.querySelector(".circle");
+        circle.style.background = color;
+      }
+
+      function changeTextColor(color) {
+        const text = document.querySelector(".bold");
+        text.style.color = color;
+      }
+    </script>
+  </body>
+</html>
