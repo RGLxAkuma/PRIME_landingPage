@@ -1,6 +1,6 @@
 # PRIME_landingPage
 
-This is a landing Page for "Prime Hydration" made using HTML, CSS and JacaScript
+This is a landing Page for "Prime Hydration" made using HTML, CSS and JavaScript.
 This is a Desktop Only Website.
 
 To View the Website:
